@@ -4,7 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 
 
-class Map extends Component {
+class MapPage extends Component {
     render() {
         return (
             <>
@@ -17,4 +17,4 @@ class Map extends Component {
     }
 }
 
-export default Map;
+export default MapPage;

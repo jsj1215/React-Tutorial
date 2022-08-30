@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <>
-              <footer>
+            <footer>
                 <h1>푸터영역 입니다.</h1>
             </footer>  
             </>
