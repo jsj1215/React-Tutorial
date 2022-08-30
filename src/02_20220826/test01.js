@@ -6,9 +6,9 @@ import '../App.css';
 class test01 extends Component {
     render() {
         return (
-            <div>
+            <>
                 <h2 className = "title02">클래스형 컴포넌트 입니다.</h2>
-            </div>
+            </>
         );
     }
 }
