@@ -15,7 +15,10 @@ import App01 from './04_20220901/App01';
 import App02 from './04_20220901/App02';
 import Map from './04_20220901/Map';
 import App03 from './04_20220901/App03';
-
+import App from './05_20220906/App';
+import MyForm from './05_20220906/MyForm';
+import MyForm01 from './05_20220906/MyForm01';
+import MyForm02 from './05_20220906/MyForm02';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -41,10 +44,20 @@ root.render(
     <App01/>
     <App02/>
     <Map/>
+    <App03/>
+
+    //04_20220901
+    <App/>
+    <MyForm/>
+    <MyForm01/>
 
     */}
 
-    <App03/>
+    
+    <MyForm02/>
+    
+    
+    
     
     
   </React.StrictMode>
