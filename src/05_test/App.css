@@ -1,0 +1,48 @@
+.InputTag{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.ButtonTag{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid rgb(95, 0, 128);
+    background-color: #FFFFFF;
+    color:rgb(95, 0, 128);
+    border-radius: 5px;
+}
+
+.ButtonTag:hover{
+    background-color: rgb(95, 0, 128);
+    color: #FFFFFF;
+    
+}
+.LeftPart{
+    width: 800px;
+    margin: 0 auto;
+}
+.LeftPart h1{
+    color:rgb(95, 0, 128);
+}
+.LeftPart hr{
+    margin-top: 30px;
+}
+.TextLogin{
+    margin-top: 80px;
+}
+.TextFindInfo{
+    width: 250px;
+    font-size: 8px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.RightPart{
+    padding-top: 80px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+}
