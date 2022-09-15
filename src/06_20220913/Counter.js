@@ -14,7 +14,7 @@ function Counter(props) {
     const onIncrease=()=>{
         
         setNum(num+1);
-        alert("[onIncrease] :"+num);
+        //alert("[onIncrease] :"+num);
         if(num > 0){
             setdisabledValue(false);
         }else{
@@ -27,7 +27,7 @@ function Counter(props) {
     const onDecrease=()=>{
         
         // 1이하로 감소 못하도록, 1일 경우 마이너스 버튼 비활성화
-        alert("[onDecrease] :"+num);
+        //alert("[onDecrease] :"+num);
         if(num > 1){
             setNum(num-1);
             setdisabledValue(false);

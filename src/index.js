@@ -24,8 +24,12 @@ import ProductTest from './05_test/ProductTest';
 import MyForm from './06_20220913/MyForm';
 import TextArea from './06_20220913/TextArea';
 import ProductSelect from './06_20220913/ProductSelect';
-import App from './06_20220913/App';
+// import App from './06_20220913/App';
 import App01 from './06_20220913/App01';
+import App from './07_20220915/App';
+import Ref from './07_20220915/Ref';
+import Ref01 from './07_20220915/Ref01';
+import StudentList from './07_20220915/StudentList';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -68,9 +72,17 @@ root.render(
     <ProductSelect/>
      <App/>
      <App01/>
+
+    //07_20220915
+     <App/>
+     <Ref/>
+     <Ref01/>
+
     */}
 
-    <App/>
+    
+    <StudentList/>
+   
     
     
     
