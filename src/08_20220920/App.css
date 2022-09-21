@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+
+/* 상품등록 영역 */
+
+.InputBox{
+    text-align: center;
+    background-color: #A9E2F3;
+}
+.InputBox h2{
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.InputTbl{
+    width: 500px;
+    margin: 0 auto;
+}
+.InputTbl th{
+    text-align: left;
+    width: 25%;
+}
+.InputTbl td{
+height: 30px;
+
+}
+
+.InputTbl input{
+    width: 300px;
+    height: 20px;
+}
+
+
+.InputBtn{
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.InputBtn:hover{
+    color: dodgerblue;
+    background-color: #fff;
+}
+
+
+/* 상품 영역 */
+.ProductCom{
+    margin-top: 30px;
+}
+.ProductCom img{
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.ProductTbl{
+    width: 700px;
+    height: 130px;
+    float: left;
+    text-align: left;
+}
+.ProductTbl th{
+    width: 20%;;
+}
+
+
+.RemoveBtn{
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.RemoveBtn:hover{
+    color: orangered;
+    background-color: #fff;
+    border: 1px solid orangered;
+    
+}

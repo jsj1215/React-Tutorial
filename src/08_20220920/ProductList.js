@@ -2,6 +2,7 @@ import React,{useState,useRef} from 'react';
 import CreateProduct from './CreateProduct';
 import Product from './Product';
 
+
 function ProductList(props) {
     // 1. 기본 데이터 직접 입력
     // 5-1. 추가 배열을 입력하도록 변경해줌.
@@ -56,7 +57,7 @@ function ProductList(props) {
     const onCreate=()=>{
         // 1) 추가할 내용들을 변수에 담는다.
         const product={
-            id:nextId,
+            id:nextId.current,
             title,            
             fileName,
             price,
@@ -77,13 +78,13 @@ function ProductList(props) {
 
 
     return (
-        <div>
+        <>
             <CreateProduct title={title} fileName={fileName} price={price} subTitle={subTitle} 
                             onDataChange={onDataChange} onCreate={onCreate}/>
             {products.map((product)=>(
                 <Product product={product} key={product.id} onRemove={onRemove}/>
             ))}
-        </div>
+        </>
     );
 }
 
