@@ -20,18 +20,21 @@ import App03 from './04_20220901/App03';
 import MyForm01 from './05_20220906/MyForm01';
 import MyForm02 from './05_20220906/MyForm02';
 import LoginTest from './05_test/LoginTest';
-import ProductTest from './05_test/ProductTest';
+// import ProductTest from './05_test/ProductTest';
 import MyForm from './06_20220913/MyForm';
 import TextArea from './06_20220913/TextArea';
 import ProductSelect from './06_20220913/ProductSelect';
 // import App from './06_20220913/App';
 import App01 from './06_20220913/App01';
-import App from './07_20220915/App';
+// import App from './07_20220915/App';
 import Ref from './07_20220915/Ref';
 import Ref01 from './07_20220915/Ref01';
 //import StudentList from './07_20220915/StudentList';
 import StudentList from './08_20220920/StudentList';
 import ProductList from './08_20220920/ProductList';
+import App from './09_20220922/App';
+import ProductTest from './09_test/ProductTest';
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -83,10 +86,15 @@ root.render(
 
      //08_20220920
      <StudentList/>
+    <ProductList/>
+
+    //09_20220922
+    <App/>
 
     */}
 
-    <ProductList/>
+    <ProductTest/>
+    
     
     
     
