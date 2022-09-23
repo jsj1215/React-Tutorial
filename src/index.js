@@ -32,8 +32,9 @@ import Ref01 from './07_20220915/Ref01';
 //import StudentList from './07_20220915/StudentList';
 import StudentList from './08_20220920/StudentList';
 import ProductList from './08_20220920/ProductList';
-import App from './09_20220922/App';
+//import App from './09_20220922/App';
 import ProductTest from './09_test/ProductTest';
+import App from './10_20220923/App';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -90,11 +91,12 @@ root.render(
 
     //09_20220922
     <App/>
+    <ProductTest/>
 
     */}
 
-    <ProductTest/>
     
+<App/>
     
     
     
